@@ -3,7 +3,6 @@ description: "Pre Steps to run before run workflows"
 
 runs:
   using: composite
-  shell: bash
   steps:
     - uses: actions/checkout@v3
     - name: Use Nodejs
