@@ -5,7 +5,6 @@ runs:
   using: composite
   shell: bash
   steps:
-    - uses: actions/checkout@v3
     - name: Use Nodejs
       uses: actions/setup-node@v3
       with:
